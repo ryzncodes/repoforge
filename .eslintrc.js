@@ -6,21 +6,21 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
-    'prettier'
+    'prettier',
   ],
   env: {
     node: true,
     jest: true,
-    es2020: true
+    es2020: true,
   },
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
     '@typescript-eslint/no-explicit-any': 'warn',
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }]
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
   },
   settings: {
     jest: {
-      version: 'detect'
-    }
-  }
-}; 
+      version: 'detect',
+    },
+  },
+};

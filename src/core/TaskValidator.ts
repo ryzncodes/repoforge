@@ -12,7 +12,7 @@ export interface TaskRequirement {
 
 /**
  * TaskValidator class handles validation of learning tasks
- * 
+ *
  * @example
  * ```typescript
  * const validator = new TaskValidator([
@@ -22,7 +22,7 @@ export interface TaskRequirement {
  *     validator: async () => fs.existsSync('README.md')
  *   }
  * ]);
- * 
+ *
  * const results = await validator.validateAll();
  * ```
  */
@@ -58,7 +58,7 @@ export class TaskValidator {
    */
   async validateAll(): Promise<Record<string, boolean>> {
     const results: Record<string, boolean> = {};
-    
+
     for (const requirement of this.requirements) {
       results[requirement.id] = await requirement.validator();
     }
@@ -82,4 +82,4 @@ export class TaskValidator {
   getAllRequirements(): TaskRequirement[] {
     return [...this.requirements];
   }
-} 
+}

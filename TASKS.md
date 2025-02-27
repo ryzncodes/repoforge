@@ -96,4 +96,4 @@ This document outlines the tasks you'll complete to learn repository management 
 
 ## 🏆 Recognition
 
-Complete all tasks to earn your Repository Management certification! 
+Complete all tasks to earn your Repository Management certification!

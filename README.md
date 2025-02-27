@@ -56,4 +56,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Project Roadmap](ROADMAP.md)
 - [Task List](TASKS.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md) 
+- [Code of Conduct](CODE_OF_CONDUCT.md)

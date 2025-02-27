@@ -104,4 +104,4 @@ This document outlines our development plans and future features.
 - Priority may shift based on user needs
 - We welcome suggestions for additional features
 - Security and accessibility are top priorities
-- Regular updates will be provided on progress 
+- Regular updates will be provided on progress

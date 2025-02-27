@@ -7,15 +7,18 @@ Welcome to RepoForge! This guide will help you get started with learning reposit
 Before you begin, make sure you have:
 
 1. **Git** installed
+
    - Windows: Download from [git-scm.com](https://git-scm.com/)
    - Mac: `brew install git`
    - Linux: `sudo apt install git` or equivalent
 
 2. **Node.js** (version 18 or higher)
+
    - Download from [nodejs.org](https://nodejs.org/)
    - Verify installation: `node --version`
 
 3. **GitHub Account**
+
    - Sign up at [github.com](https://github.com)
    - Set up SSH keys (recommended): [GitHub Guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
@@ -30,11 +33,13 @@ Before you begin, make sure you have:
 ## 🎯 First Steps
 
 1. **Fork the Repository**
+
    - Go to [RepoForge Repository](https://github.com/ryzncodes/repoforge)
    - Click the "Fork" button in the top right
    - Select your account as the destination
 
 2. **Clone Your Fork**
+
    ```bash
    # Replace YOUR_USERNAME with your GitHub username
    git clone https://github.com/YOUR_USERNAME/repoforge.git
@@ -42,15 +47,17 @@ Before you begin, make sure you have:
    ```
 
 3. **Install Dependencies**
+
    ```bash
    npm install
    ```
 
 4. **Set Up Your Development Environment**
+
    ```bash
    # Add the original repository as a remote called "upstream"
    git remote add upstream https://github.com/ryzncodes/repoforge.git
-   
+
    # Create a new branch for your work
    git checkout -b my-first-task
    ```
@@ -58,11 +65,13 @@ Before you begin, make sure you have:
 ## 🎓 Starting the Learning Journey
 
 1. **Read the Documentation**
+
    - Start with README.md
    - Review CONTRIBUTING.md
    - Understand our CODE_OF_CONDUCT.md
 
 2. **Begin with Tasks**
+
    - Open TASKS.md
    - Start with Module 1
    - Complete tasks in order
@@ -82,10 +91,11 @@ Before you begin, make sure you have:
 ### Git Issues
 
 1. **"git push rejected"**
+
    ```bash
    # Pull latest changes from your fork
    git pull origin main
-   
+
    # If there are conflicts, resolve them and then
    git push origin my-first-task
    ```
@@ -99,10 +109,11 @@ Before you begin, make sure you have:
 ### Node.js Issues
 
 1. **"npm install fails"**
+
    ```bash
    # Clear npm cache
    npm cache clean --force
-   
+
    # Try installing again
    npm install
    ```
@@ -114,6 +125,7 @@ Before you begin, make sure you have:
 ## 🆘 Getting Help
 
 1. **Check Existing Resources**
+
    - Search Issues tab for similar problems
    - Review the documentation
    - Check the Common Issues section
@@ -130,6 +142,7 @@ Before you begin, make sure you have:
 ## ✅ Next Steps
 
 After completing your first task:
+
 1. Review other's Pull Requests
 2. Try more complex tasks
 3. Help others in Issues
@@ -138,11 +151,13 @@ After completing your first task:
 ## 🎉 Tips for Success
 
 1. **Take It Step by Step**
+
    - Don't rush through tasks
    - Make sure you understand each concept
    - Ask questions when stuck
 
 2. **Best Practices**
+
    - Always work in a branch
    - Write clear commit messages
    - Test your changes before pushing
@@ -156,4 +171,4 @@ After completing your first task:
    git push origin main
    ```
 
-Remember: Everyone starts somewhere! Don't be afraid to make mistakes - they're part of the learning process. 🌟 
+Remember: Everyone starts somewhere! Don't be afraid to make mistakes - they're part of the learning process. 🌟
