@@ -6,13 +6,13 @@ describe('TaskValidator', () => {
     {
       id: 'req1',
       description: 'First requirement',
-      validator: async () => true
+      validator: async () => true,
     },
     {
       id: 'req2',
       description: 'Second requirement',
-      validator: async () => false
-    }
+      validator: async () => false,
+    },
   ];
 
   let validator: TaskValidator;
@@ -33,9 +33,9 @@ describe('TaskValidator', () => {
     });
 
     it('should throw error for non-existent requirement', async () => {
-      await expect(validator.validate('non-existent'))
-        .rejects
-        .toThrow('Requirement with ID "non-existent" not found');
+      await expect(validator.validate('non-existent')).rejects.toThrow(
+        'Requirement with ID "non-existent" not found'
+      );
     });
   });
 
@@ -44,7 +44,7 @@ describe('TaskValidator', () => {
       const results = await validator.validateAll();
       expect(results).toEqual({
         req1: true,
-        req2: false
+        req2: false,
       });
     });
   });
@@ -72,11 +72,11 @@ describe('TaskValidator', () => {
       requirements.push({
         id: 'new',
         description: 'New requirement',
-        validator: async () => true
+        validator: async () => true,
       });
 
       // Original requirements should not be modified
       expect(validator.getAllRequirements()).toEqual(mockRequirements);
     });
   });
-}); 
+});

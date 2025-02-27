@@ -18,7 +18,7 @@ const requirements: TaskRequirement[] = [
   {
     id: 'has-readme',
     description: 'Repository has a README.md file',
-    validator: async () => fs.existsSync('README.md')
+    validator: async () => fs.existsSync('README.md'),
   },
   {
     id: 'has-tests',
@@ -26,8 +26,8 @@ const requirements: TaskRequirement[] = [
     validator: async () => {
       const files = await glob('**/*.test.{ts,js}');
       return files.length > 0;
-    }
-  }
+    },
+  },
 ];
 
 // Create validator instance
@@ -76,4 +76,4 @@ Or run tests in watch mode:
 
 ```bash
 npm run test:watch
-``` 
+```
