@@ -11,6 +11,9 @@ RepoForge is an interactive learning platform designed to teach industry-standar
 - Project board management
 - Code review processes
 
+## 📚 New to Git or GitHub?
+👉 Check out our [Getting Started Guide](docs/GETTING_STARTED.md) for step-by-step instructions!
+
 ## 📂 Repository Structure
 ```
 📦 repoforge
