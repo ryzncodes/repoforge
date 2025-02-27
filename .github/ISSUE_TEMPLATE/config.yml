@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Documentation
+    url: https://github.com/your-org/repoforge/wiki
+    about: Check our documentation before creating an issue
+  - name: 💬 Discussions
+    url: https://github.com/your-org/repoforge/discussions
+    about: Please ask and answer questions here
+  - name: 🤝 Contributing Guidelines
+    url: https://github.com/your-org/repoforge/blob/main/CONTRIBUTING.md
+    about: Please read our contributing guidelines before creating an issue 
