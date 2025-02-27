@@ -16,7 +16,7 @@ management, collaboration workflows, and best practices in open source developme
 
 ## 📚 New to Git or GitHub?
 
-Check out our [Getting Started Guide](docs/getting-started.md) for a beginner-friendly introduction.
+Check out our [Getting Started Guide](docs/GETTING_STARTED.md) for a beginner-friendly introduction.
 
 ## 📂 Repository Structure
 
@@ -33,7 +33,7 @@ Check out our [Getting Started Guide](docs/getting-started.md) for a beginner-fr
 
 1. Fork this repository
 2. Clone your fork locally
-3. Follow the setup instructions in [Getting Started](docs/getting-started.md)
+3. Follow the setup instructions in [Getting Started](docs/GETTING_STARTED.md)
 4. Start with the tasks in [TASKS.md](TASKS.md)
 
 ## 📚 Available Modules

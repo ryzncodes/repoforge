@@ -34,7 +34,7 @@ Before you begin, make sure you have:
 
 1. **Fork the Repository**
 
-   - Go to [RepoForge Repository](https://github.com/ryzncodes/repoforge)
+   - Go to [RepoForge Repository](https://github.com/ryzncodes/RepoForge)
    - Click the "Fork" button in the top right
    - Select your account as the destination
 
@@ -42,7 +42,7 @@ Before you begin, make sure you have:
 
    ```bash
    # Replace YOUR_USERNAME with your GitHub username
-   git clone https://github.com/YOUR_USERNAME/repoforge.git
+   git clone https://github.com/YOUR_USERNAME/RepoForge.git
    cd repoforge
    ```
 
